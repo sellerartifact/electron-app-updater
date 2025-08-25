@@ -25,7 +25,7 @@ export class ElectronAppUpdater {
     this.checkVersionUrl = checkVersionUrl;
     this.configJSONFileName = configJSONFileName || 'config.json';
     this.buildJSFileName = buildJSFileName || 'build.js';
-    this.buildPath = './';
+    this.buildPath = './resources/app/src/main';
     this.app = app;
     this.dialog = dialog;
   }
