@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["ES2021"],
+    "lib": [
+      "ES2021"
+    ],
+    "types": [
+      "node"
+    ],
     "module": "ESNext",
     "noEmit": true,
     "strict": true,
@@ -11,5 +16,7 @@
     "useDefineForClassFields": true,
     "allowImportingTsExtensions": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
